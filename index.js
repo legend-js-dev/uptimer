@@ -30,7 +30,7 @@ client.on('ready', () => {
 	console.log(`[INFO]: Ready on client (${client.user.tag})`);
 	console.log(`[INFO]: watching ${client.guilds.cache.size} Servers, ${client.channels.cache.size} channels & ${client.users.cache.size} users`)
 	console.log('-------------------------------------');
-	client.user.setActivity('uptimer bot by legend :D', {
+	client.user.setActivity('uptimer bot by legendjs :D', {
 		type: 'WATCHING'
 	});
 });
