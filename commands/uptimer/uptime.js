@@ -28,7 +28,7 @@ module.exports = {
     .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
     .setURL("https://github.com/legend-js-dev/uptimer")
     .setDescription("**The URL is now uptimed**")
-    .setFooter(message.guild.name + " | made by legend-js, https://github.com/legend-js-dev/uptimer", message.guild.iconURL())
+    .setFooter(message.guild.name + " | made by legendjs#0001", message.guild.iconURL())
     .setTimestamp()
     return message.channel.send({ embed: embed })
   }).catch(err => {
