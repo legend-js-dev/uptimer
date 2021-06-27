@@ -13,7 +13,7 @@ module.exports = {
                 lol.setAuthor(message.author.tag, message.author.displayAvatarURL({ dynamic: true }))
                 lol.setDescription(`:x: | **The URL isnt uptimed!**`)
                 lol.setColor("#FF0000")
-                lol.setFooter(message.guild.name + " | made by legend-js, https://github.com/legend-js-dev/uptimer", message.guild.iconURL());
+                lol.setFooter(message.guild.name + " | made by legendjs#0001", message.guild.iconURL());
                 lol.setThumbnail(message.guild.iconURL())
 
             if (!pog2) return message.channel.send({ embed: lol });
@@ -29,7 +29,7 @@ module.exports = {
 let embed = new client.embed()
                 embed.setAuthor(message.author.tag, message.author.displayAvatarURL())
                 embed.setDescription(`**The URL has been deleted from the database!** `)
-                embed.setFooter(message.guild.name + " | made by legend-js, https://github.com/legend-js-dev/uptimer", message.guild.iconURL());
+                embed.setFooter(message.guild.name + " | made by legendjs#0001", message.guild.iconURL());
 embed.setColor("GREEN")
 embed.setTimestamp()
             return message.channel.send({ embed: embed });
@@ -38,7 +38,7 @@ embed.setTimestamp()
                 embed.setAuthor(message.author.tag, message.author.displayAvatarURL({ dynamic: true }))
                 embed.setDescription(`:x: | **The URL isnt uptimed!**`)
                 embed.setColor("#FF0000")
-                embed.setFooter(message.guild.name + " | made by legend-js, https://github.com/legend-js-dev/uptimer", message.guild.iconURL());
+                embed.setFooter(message.guild.name + " | made by legendjs#0001", message.guild.iconURL());
                 embed.setThumbnail(message.guild.iconURL())
                 return message.channel.send({ embed: embed })
     }
